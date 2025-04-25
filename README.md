@@ -1,1 +1,1 @@
-# company-page-site
+# vintage-company-site
