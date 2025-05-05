@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // real time counters
+  // real time counters, need to implement later
   const counters = document.querySelectorAll(".count");
   counters.forEach(counter => {
     counter.innerText = "0";
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     update();
   });
 
-  // Card click highlight
+  // card click highlight for counter
   const cards = document.querySelectorAll(".card");
   const tables = document.querySelectorAll(".data-table");
 
@@ -38,6 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // if i click modal section, it show the tables
+
   const modals = document.querySelectorAll(".modal");
   const closeButtons = document.querySelectorAll(".close");
 
@@ -46,6 +48,9 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.closest(".modal").classList.remove("show");
     });
   });
+
+
+  // clicking functionality
 
   window.addEventListener("click", (e) => {
     modals.forEach(modal => {
