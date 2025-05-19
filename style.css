@@ -94,7 +94,7 @@ body {
 }
 
 .card.active {
-  outline: 3px solid black; /* Light green outline */
+  outline: 3px solid black; 
   transform: scale(1);
 }
 

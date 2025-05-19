@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // real time counters
+  // real time counters running need to implement later
   const counters = document.querySelectorAll(".count");
   counters.forEach(counter => {
     counter.innerText = "0";
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     update();
   });
 
-  // Card click highlight
+  // card click highlight, later modify it to advance level
   const cards = document.querySelectorAll(".card");
   const tables = document.querySelectorAll(".data-table");
 
@@ -37,6 +37,9 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+
+
+  // on each click, it show the table
 
   const modals = document.querySelectorAll(".modal");
   const closeButtons = document.querySelectorAll(".close");
