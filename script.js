@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
+<<<<<<< HEAD
   // real time counters running need to implement later
+=======
+  // real time counters, need to implement later
+>>>>>>> ecb6d88474bb86de4d6eeec40ea6c0cabd37e16e
   const counters = document.querySelectorAll(".count");
   counters.forEach(counter => {
     counter.innerText = "0";
@@ -17,7 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
     update();
   });
 
+<<<<<<< HEAD
   // card click highlight, later modify it to advance level
+=======
+  // card click highlight for counter
+>>>>>>> ecb6d88474bb86de4d6eeec40ea6c0cabd37e16e
   const cards = document.querySelectorAll(".card");
   const tables = document.querySelectorAll(".data-table");
 
@@ -38,8 +46,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+<<<<<<< HEAD
 
   // on each click, it show the table
+=======
+  // if i click modal section, it show the tables
+>>>>>>> ecb6d88474bb86de4d6eeec40ea6c0cabd37e16e
 
   const modals = document.querySelectorAll(".modal");
   const closeButtons = document.querySelectorAll(".close");
@@ -49,6 +61,9 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.closest(".modal").classList.remove("show");
     });
   });
+
+
+  // clicking functionality
 
   window.addEventListener("click", (e) => {
     modals.forEach(modal => {

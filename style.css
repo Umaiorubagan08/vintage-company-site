@@ -137,7 +137,7 @@ td {
   }
 }
 
-/* Modal Styles */
+/* modal section */
 .modal {
   display: none;
   position: fixed;
@@ -203,7 +203,7 @@ td {
   cursor: pointer;
 }
 
-/* responsive design */
+/* media queries later need to implement this section */
 @media (max-width: 1024px) {
   .card {
     font-size: 13px;
